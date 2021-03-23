@@ -1,0 +1,264 @@
+
+.container{
+
+  width: 1170px;
+  margin: auto;
+}
+/* start heading properties */
+.header .slider{
+  overflow: hidden;
+  height: 550px;
+  background-image:url(../images/cn.jpg);
+  background-size: cover;
+}
+
+.header h2
+{
+  margin-left: 380px;
+text-align: left;
+color: #000;
+font-family: 'Georgia';
+letter-spacing: 10px;
+background-color: rgb(247, 195, 118);
+max-width: 700px;
+border-radius: 10px;
+margin-top: 9%;
+}
+
+.header .navbar{
+  background-color:#252f31;
+  color: #fff;
+  overflow: hidden;
+}
+.header .navbar h1{
+  float:left;
+  font-family: comic;
+}
+.header .navbar h1 span{
+  color:rgb(247, 174, 66)
+}
+
+.header .navbar ul{
+  
+  list-style: none; /* لالغاء شكل القائمه وجعلها في صف */
+  padding-left: 0;
+  overflow: hidden;
+  float: right;
+}
+.header .navbar ul li {
+  padding: 20px;
+  float: left;
+ 
+}
+.header .navbar ul li a{
+   color: #fff;
+text-decoration: none;
+font-family: cursive;
+}
+.header .navbar ul li a:hover{
+  color: #252f31;
+  background-color:  rgb(247, 195, 118);
+}
+/* End heading properties */
+/* start layout properties */
+.features {
+  overflow: hidden;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.features .feat 
+{
+  padding-top: 40px;
+  float: left;
+  width: 33.3333333333333333333333333%;
+  height: 200px;
+  
+}
+.features .feat h2{
+  color: #444;
+
+}
+.features .feat p{
+  line-height: 1.5;
+  color: #888;
+}
+/*designing menu */ 
+.menu{
+  overflow: hidden;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.menu h1 {
+  background-color:rgb(247, 174, 66);
+  padding-bottom: 10px;
+  width: 300px;
+  border: 2px;
+  border-radius: 10px;
+}
+.menu video{
+  margin-left: 250px;
+}
+ 
+/******************************************************************************/
+/* Menu Data*/
+/* tables layouting*/
+.table1,.table2,.table3{
+  float: left;
+  overflow: hidden;
+  width:33.3333333333333%;
+  
+}
+.table1 caption,.table2 caption,.table3 caption{
+  color:#7dce94;
+  background-color:#3d3d3f;
+  border-radius:30px ;
+}
+td,th
+{font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+}
+
+.menu .table1{
+  margin-right: .5px;
+  background-color: rgb(250, 68, 68);
+  border-radius: 20px;
+  color: #fff;
+}
+
+  .menu .table2{
+    margin-right: .5px;
+    background-color: rgb(238, 103, 103);
+    border-radius: 20px;
+    color: #fff;
+  }
+
+    .menu .table3{
+      background-color:rgb(247, 195, 118);
+      border-radius: 20px;
+      color: #fff;
+    }
+/* End tables layouting */
+
+/* End menu */
+/******************************************************************************/
+/* About us */
+.about .img
+{
+  float: left;
+}
+.about {
+  background-color: #f2f2f2;
+  overflow: hidden;
+}
+.info {
+  float: left;
+  margin-left: 30px;
+}
+.about .info p 
+{
+  line-height: 1.5;
+}
+.about .info img 
+{
+  cursor: pointer;
+}
+/*******************************************************************************/
+/* making orders */
+.order {
+  background-color:rgb(247, 195, 118);
+  overflow: hidden;
+}
+
+.order .form {
+  text-align: center;
+  overflow: hidden;
+  color: #fff;
+
+}
+.order h2
+{
+ border: 2px solid #fff;
+ border-radius: 5px;
+ max-width: 325px;
+color:  #fff;
+
+}
+.order .form .someForm,.someForm2{
+  float: left;
+  margin-left: 30px;
+}
+.order .form .someForm{
+  margin-left:30% ;
+}
+.order .form label, .someForm2 button {
+  margin: 10px;
+  display: block;
+  cursor: pointer;
+}
+.someForm2 textarea {
+  width:300px ;
+  height: 146px;
+}
+.someForm2 button
+{
+  margin-left: -50px;
+  margin-top: 25px;
+  border: 2px solid #fff;
+  background: none;
+  color: #fff;
+  padding: 7px;
+}
+/* End making orders */
+/*******************************************************************************/
+
+/* feedback design */
+.feedback
+{
+  overflow: hidden;
+  background-color: #252f31;
+  
+
+}
+.feedback h3,strong 
+{
+  color:rgb(255, 209, 124)
+}
+.feedback p
+{
+color: #ddd;
+}
+/* End Feedback */
+/*******************************************************************************/
+
+/* Footer */
+.footer
+{
+  overflow: hidden;
+  background-color: #395057;
+  color: #999;
+  margin: 0 auto;
+}
+.footer p 
+{
+ margin-left: 45%;
+ margin-top: 0;
+}
+.footer span
+{
+  font-family: monospace;
+}
+
+.footer #linked
+{
+  margin-left:45% ;
+}
+.footer img{
+  margin-top: -10px;
+  margin-left: 10px;
+  max-width: 32px;
+  max-height: 32px;
+  cursor: pointer;
+}
+/* End footer */
+/*******************************************************************************/
+ 
